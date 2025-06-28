@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem.iOS;
 
 public class EnemyMeleeAttack : MonoBehaviour
 {
@@ -11,6 +12,10 @@ public class EnemyMeleeAttack : MonoBehaviour
 
     private IAController iaController;
     private Health playerHealth;
+
+    [Header("Animation settings")]
+    public Animator animator;
+    private bool attackAnim = true;
 
     private void Start()
     {
@@ -30,11 +35,22 @@ public class EnemyMeleeAttack : MonoBehaviour
             {
                 if (attackTimming >= attackCadency)
                 {
+                    if (attackAnim)
+                    {
+                        animator.SetTrigger("Attack");
+                        attackAnim = false;
+
+                        Invoke(nameof(ResetAttackAnim), 1.5f);
+                    }
                     playerHealth.ApplyDamage(damage);
                     attackTimming = 0;
                 }
             }
         }
+    }
+    private void ResetAttackAnim() 
+    {
+        attackAnim = true;
     }
 
 }

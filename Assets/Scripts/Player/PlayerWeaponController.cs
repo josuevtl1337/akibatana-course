@@ -6,20 +6,20 @@ public class PlayerWeaponController : MonoBehaviour
     public bool useHitScanProjectiles;
     public Camera playerCamera;
 
+    [Header("Weapon SO Settings")]
+    public WeaponSO currentWeaponSO;
+
     [Header("Projectiles Settings")]
     public PhysicProjectile physicProjectile;
     public HitScanProjectile hitScanProjectile;
 
     [Header("Projectiles cadency Settings")]
-    public float shootCadency;
     private float shootTimming;
 
     [Header("Magazine Settings")]
-    public int magazineSize = 30;
     public int currentMagazineSize;
 
     [Header("Reload Settings")]
-    public float reloadTime;
     private bool reloading;
 
 
@@ -27,16 +27,31 @@ public class PlayerWeaponController : MonoBehaviour
     public Transform canonPos;
     public float projectileSpeed;
 
+    [Header("Hitscan settings")]
+    public LayerMask hitLayerMask;
     private RaycastHit hit;
+
+    [Header("Animator Settings")]
+    public Animator animator;
+
+    [Header("Sounds Settings")]
+    public AudioSource audioSourceFXs;
+
+    public AudioClip shootAudioClip;
+    public AudioClip reloadAudioClip;
+
+    private Health myHealth;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        currentMagazineSize = magazineSize;
+        myHealth = GetComponent<Health>();
+        currentMagazineSize = currentWeaponSO.magazineSize;
 
         if (HUDPlayerWeapon.Instance != null)
         {
-            HUDPlayerWeapon.Instance.UpdateMagazineWeapon(currentMagazineSize, magazineSize);
+            HUDPlayerWeapon.Instance.UpdateMagazineWeapon(currentMagazineSize, currentWeaponSO.magazineSize);
         }
     }
 
@@ -44,18 +59,22 @@ public class PlayerWeaponController : MonoBehaviour
     void Update()
     {
         if (reloading) { return; }
-        if (Input.GetKeyDown("r")) 
+        if (Input.GetKeyDown("r"))
         {
             reloading = true;
+            animator.SetTrigger("Reload");
             HUDPlayerWeapon.Instance.UpdateReloading();
-            Invoke(nameof(Reload), reloadTime);
+            audioSourceFXs.clip = reloadAudioClip;
+            audioSourceFXs.Play();
+
+            Invoke(nameof(Reload), currentWeaponSO.reloadTime);
 
         }
 
         shootTimming += Time.deltaTime;
         if (Input.GetButton("Fire1"))
         {
-            if (shootTimming>=shootCadency && currentMagazineSize>0)
+            if (shootTimming >= currentWeaponSO.cadency && currentMagazineSize>0)
             {
                 if (useHitScanProjectiles)
                 {
@@ -66,25 +85,30 @@ public class PlayerWeaponController : MonoBehaviour
                 {
                     Shoot();
                 }
+                animator.SetTrigger("Shoot");
+
+                audioSourceFXs.clip = shootAudioClip;
+                audioSourceFXs.Play();
+
                 shootTimming = 0;
                 currentMagazineSize--;
-                HUDPlayerWeapon.Instance.UpdateMagazineWeapon(currentMagazineSize, magazineSize);
+                HUDPlayerWeapon.Instance.UpdateMagazineWeapon(currentMagazineSize, currentWeaponSO.magazineSize);
             }
           
         }
     }
     void Reload()
     {
-        currentMagazineSize=magazineSize;
+        currentMagazineSize = currentWeaponSO.magazineSize;
         reloading = false;
-        HUDPlayerWeapon.Instance.UpdateMagazineWeapon(currentMagazineSize, magazineSize);
+        HUDPlayerWeapon.Instance.UpdateMagazineWeapon(currentMagazineSize, currentWeaponSO.magazineSize);
     }
     void ShootHitScan()
     {
         if (Physics.Raycast(playerCamera.transform.position,playerCamera.transform.forward, out hit, 100)) 
         {
             Health targetHealth = hit.collider.GetComponent<Health>();
-            if (targetHealth) {
+            if (targetHealth && targetHealth != myHealth) {
                 targetHealth.ApplyDamage(25);
             }
 
