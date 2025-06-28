@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{759B163B-115D-B5FC-DAD0-E871033F13A1}|Assembly-CSharp.csproj|C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\assets\\scripts\\player\\playerweaponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759B163B-115D-B5FC-DAD0-E871033F13A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerweaponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759B163B-115D-B5FC-DAD0-E871033F13A1}|Assembly-CSharp.csproj|c:\\users\\josue\\documents\\gamedev\\repos\\curso akibana\\assets\\scripts\\bulletobjectpooling\\bulletobjectpooling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759B163B-115D-B5FC-DAD0-E871033F13A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bulletobjectpooling\\bulletobjectpooling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759B163B-115D-B5FC-DAD0-E871033F13A1}|Assembly-CSharp.csproj|c:\\users\\josue\\documents\\gamedev\\repos\\curso akibana\\assets\\scripts\\hitscanprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759B163B-115D-B5FC-DAD0-E871033F13A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hitscanprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759B163B-115D-B5FC-DAD0-E871033F13A1}|Assembly-CSharp.csproj|c:\\users\\josue\\documents\\gamedev\\repos\\curso akibana\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759B163B-115D-B5FC-DAD0-E871033F13A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759B163B-115D-B5FC-DAD0-E871033F13A1}|Assembly-CSharp.csproj|C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759B163B-115D-B5FC-DAD0-E871033F13A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759B163B-115D-B5FC-DAD0-E871033F13A1}|Assembly-CSharp.csproj|C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\assets\\scripts\\hud\\hudgameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759B163B-115D-B5FC-DAD0-E871033F13A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hud\\hudgameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759B163B-115D-B5FC-DAD0-E871033F13A1}|Assembly-CSharp.csproj|C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\assets\\scripts\\enemy\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759B163B-115D-B5FC-DAD0-E871033F13A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759B163B-115D-B5FC-DAD0-E871033F13A1}|Assembly-CSharp.csproj|C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\assets\\scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759B163B-115D-B5FC-DAD0-E871033F13A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759B163B-115D-B5FC-DAD0-E871033F13A1}|Assembly-CSharp.csproj|C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\assets\\scripts\\hud\\hudplayerweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759B163B-115D-B5FC-DAD0-E871033F13A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hud\\hudplayerweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759B163B-115D-B5FC-DAD0-E871033F13A1}|Assembly-CSharp.csproj|C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\assets\\scripts\\hud\\hudplayerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759B163B-115D-B5FC-DAD0-E871033F13A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hud\\hudplayerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HitScanProjectile.cs",
+              "DocumentMoniker": "C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\Assets\\Scripts\\HitScanProjectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HitScanProjectile.cs",
+              "ToolTip": "C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\Assets\\Scripts\\HitScanProjectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HitScanProjectile.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T13:37:07.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BulletObjectPooling.cs",
+              "DocumentMoniker": "C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\Assets\\Scripts\\BulletObjectPooling\\BulletObjectPooling.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BulletObjectPooling\\BulletObjectPooling.cs",
+              "ToolTip": "C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\Assets\\Scripts\\BulletObjectPooling\\BulletObjectPooling.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BulletObjectPooling\\BulletObjectPooling.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T13:27:59.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerWeaponController.cs",
+              "DocumentMoniker": "C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\Assets\\Scripts\\Player\\PlayerWeaponController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerWeaponController.cs",
+              "ToolTip": "C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\Assets\\Scripts\\Player\\PlayerWeaponController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerWeaponController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAwwFwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T01:54:59.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwE4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T04:05:05.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HudGameOver.cs",
+              "DocumentMoniker": "C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\Assets\\Scripts\\HUD\\HudGameOver.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HUD\\HudGameOver.cs",
+              "ToolTip": "C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\Assets\\Scripts\\HUD\\HudGameOver.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HUD\\HudGameOver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T03:38:30.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HUDPlayerWeapon.cs",
+              "DocumentMoniker": "C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\Assets\\Scripts\\HUD\\HUDPlayerWeapon.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HUD\\HUDPlayerWeapon.cs",
+              "ToolTip": "C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\Assets\\Scripts\\HUD\\HUDPlayerWeapon.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HUD\\HUDPlayerWeapon.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T02:31:00.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "ToolTip": "C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T03:05:39.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Health.cs",
+              "DocumentMoniker": "C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\Assets\\Scripts\\Health.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Health.cs",
+              "ToolTip": "C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\Assets\\Scripts\\Health.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Health.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T03:03:55.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HudPlayerHealth.cs",
+              "DocumentMoniker": "C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\Assets\\Scripts\\HUD\\HudPlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HUD\\HudPlayerHealth.cs",
+              "ToolTip": "C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\Assets\\Scripts\\HUD\\HudPlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HUD\\HudPlayerHealth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T02:59:22.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnemyHealth.cs",
+              "DocumentMoniker": "C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "ToolTip": "C:\\Users\\Josue\\Documents\\Gamedev\\Repos\\Curso Akibana\\Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T03:03:44.852Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
