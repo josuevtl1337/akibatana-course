@@ -1,86 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\josue\\Escritorio\\Unity\\Repositories\\akibatana-course\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{54982AFB-BFE8-047B-3184-98753019C9AE}|Assembly-CSharp.csproj|c:\\users\\josue\\escritorio\\unity\\repositories\\akibatana-course\\assets\\scripts\\player\\playerweaponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54982AFB-BFE8-047B-3184-98753019C9AE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerweaponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54982AFB-BFE8-047B-3184-98753019C9AE}|Assembly-CSharp.csproj|c:\\users\\josue\\escritorio\\unity\\repositories\\akibatana-course\\assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54982AFB-BFE8-047B-3184-98753019C9AE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54982AFB-BFE8-047B-3184-98753019C9AE}|Assembly-CSharp.csproj|C:\\Users\\josue\\Escritorio\\Unity\\Repositories\\akibatana-course\\assets\\scripts\\weapons\\scriptable objects\\weaponso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54982AFB-BFE8-047B-3184-98753019C9AE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapons\\scriptable objects\\weaponso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54982AFB-BFE8-047B-3184-98753019C9AE}|Assembly-CSharp.csproj|C:\\Users\\josue\\Escritorio\\Unity\\Repositories\\akibatana-course\\assets\\scripts\\enemy\\enemymeleeattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54982AFB-BFE8-047B-3184-98753019C9AE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemymeleeattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerHealth.cs",
-              "DocumentMoniker": "C:\\Users\\josue\\Escritorio\\Unity\\Repositories\\akibatana-course\\Assets\\Scripts\\Player\\PlayerHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerHealth.cs",
-              "ToolTip": "C:\\Users\\josue\\Escritorio\\Unity\\Repositories\\akibatana-course\\Assets\\Scripts\\Player\\PlayerHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerHealth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T21:39:22.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WeaponSO.cs",
-              "DocumentMoniker": "C:\\Users\\josue\\Escritorio\\Unity\\Repositories\\akibatana-course\\Assets\\Scripts\\Weapons\\Scriptable Objects\\WeaponSO.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Weapons\\Scriptable Objects\\WeaponSO.cs",
-              "ToolTip": "C:\\Users\\josue\\Escritorio\\Unity\\Repositories\\akibatana-course\\Assets\\Scripts\\Weapons\\Scriptable Objects\\WeaponSO.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Weapons\\Scriptable Objects\\WeaponSO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T20:55:03.272Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerWeaponController.cs",
-              "DocumentMoniker": "C:\\Users\\josue\\Escritorio\\Unity\\Repositories\\akibatana-course\\Assets\\Scripts\\Player\\PlayerWeaponController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerWeaponController.cs",
-              "ToolTip": "C:\\Users\\josue\\Escritorio\\Unity\\Repositories\\akibatana-course\\Assets\\Scripts\\Player\\PlayerWeaponController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerWeaponController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB4AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T19:55:23.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Assets\\Scripts\\Enemy\\EnemyMeleeAttack.cs",
-              "DocumentMoniker": "C:\\Users\\josue\\Escritorio\\Unity\\Repositories\\akibatana-course\\Assets\\Scripts\\Enemy\\EnemyMeleeAttack.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyMeleeAttack.cs",
-              "ToolTip": "C:\\Users\\josue\\Escritorio\\Unity\\Repositories\\akibatana-course\\Assets\\Scripts\\Enemy\\EnemyMeleeAttack.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyMeleeAttack.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwDQAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T18:14:34.719Z"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

@@ -105,10 +105,10 @@ public class PlayerWeaponController : MonoBehaviour
     }
     void ShootHitScan()
     {
-        if (Physics.Raycast(playerCamera.transform.position,playerCamera.transform.forward, out hit, 100)) 
+        if (Physics.Raycast(playerCamera.transform.position,playerCamera.transform.forward, out hit, 100, hitLayerMask)) 
         {
             Health targetHealth = hit.collider.GetComponent<Health>();
-            if (targetHealth && targetHealth != myHealth) {
+            if (targetHealth) {
                 targetHealth.ApplyDamage(25);
             }
 
