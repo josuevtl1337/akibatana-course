@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\josue\\Escritorio\\Unity\\Repositories\\akibatana-course\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54982AFB-BFE8-047B-3184-98753019C9AE}|Assembly-CSharp.csproj|c:\\users\\josue\\escritorio\\unity\\repositories\\akibatana-course\\assets\\infima games\\low poly shooter pack - free sample\\code\\camera\\cameralook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54982AFB-BFE8-047B-3184-98753019C9AE}|Assembly-CSharp.csproj|solutionrelative:assets\\infima games\\low poly shooter pack - free sample\\code\\camera\\cameralook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54982AFB-BFE8-047B-3184-98753019C9AE}|Assembly-CSharp.csproj|c:\\users\\josue\\escritorio\\unity\\repositories\\akibatana-course\\assets\\scripts\\scriptables\\itemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54982AFB-BFE8-047B-3184-98753019C9AE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptables\\itemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CameraLook.cs",
+              "DocumentMoniker": "C:\\Users\\josue\\Escritorio\\Unity\\Repositories\\akibatana-course\\Assets\\Infima Games\\Low Poly Shooter Pack - Free Sample\\Code\\Camera\\CameraLook.cs",
+              "RelativeDocumentMoniker": "Assets\\Infima Games\\Low Poly Shooter Pack - Free Sample\\Code\\Camera\\CameraLook.cs",
+              "ToolTip": "C:\\Users\\josue\\Escritorio\\Unity\\Repositories\\akibatana-course\\Assets\\Infima Games\\Low Poly Shooter Pack - Free Sample\\Code\\Camera\\CameraLook.cs",
+              "RelativeToolTip": "Assets\\Infima Games\\Low Poly Shooter Pack - Free Sample\\Code\\Camera\\CameraLook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T15:50:39.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemSO.cs",
+              "DocumentMoniker": "C:\\Users\\josue\\Escritorio\\Unity\\Repositories\\akibatana-course\\Assets\\Scripts\\Scriptables\\ItemSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scriptables\\ItemSO.cs",
+              "ToolTip": "C:\\Users\\josue\\Escritorio\\Unity\\Repositories\\akibatana-course\\Assets\\Scripts\\Scriptables\\ItemSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scriptables\\ItemSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T15:41:43.626Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
