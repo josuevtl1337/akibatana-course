@@ -100,3 +100,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectileSpeed: 200
+  hitParticles: {fileID: 6117961242503291068, guid: 7820ff3ed89845d478539c496b4ff4c3,
+    type: 3}

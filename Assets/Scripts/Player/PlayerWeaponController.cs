@@ -7,7 +7,9 @@ public class PlayerWeaponController : MonoBehaviour
     public Camera playerCamera;
 
     [Header("Weapon SO Settings")]
-    public WeaponSO currentWeaponSO;
+    public WeaponSO primaryWeapon;
+    public WeaponSO secondaryWeapon;
+    public Transform weaponModelContainer;
 
     [Header("Projectiles Settings")]
     public PhysicProjectile physicProjectile;
@@ -16,8 +18,8 @@ public class PlayerWeaponController : MonoBehaviour
     [Header("Projectiles cadency Settings")]
     private float shootTimming;
 
-    [Header("Magazine Settings")]
-    public int currentMagazineSize;
+    //[Header("Magazine Settings")]
+    //public int currentWeaponSO.MagazineSize;
 
     [Header("Reload Settings")]
     private bool reloading;
@@ -40,25 +42,32 @@ public class PlayerWeaponController : MonoBehaviour
     public AudioClip shootAudioClip;
     public AudioClip reloadAudioClip;
 
-    private Health myHealth;
+    private WeaponSO currentWeaponSO;
+    private WeaponModel currentWeaponModel;
 
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
-        myHealth = GetComponent<Health>();
-        currentMagazineSize = currentWeaponSO.magazineSize;
-
-        if (HUDPlayerWeapon.Instance != null)
-        {
-            HUDPlayerWeapon.Instance.UpdateMagazineWeapon(currentMagazineSize, currentWeaponSO.magazineSize);
-        }
+        primaryWeapon = Instantiate(primaryWeapon);
+        secondaryWeapon = Instantiate(secondaryWeapon);
     }
 
     // Update is called once per frame
     void Update()
     {
+        shootTimming += Time.deltaTime;
         if (reloading) { return; }
+
+        if (Input.GetKeyDown("1")) {
+            ChangeWeapon(primaryWeapon);
+        }
+        if (Input.GetKeyDown("2")) {
+            ChangeWeapon(secondaryWeapon);
+        }
+
+        if (!currentWeaponSO) return;
+
         if (Input.GetKeyDown("r"))
         {
             reloading = true;
@@ -67,14 +76,13 @@ public class PlayerWeaponController : MonoBehaviour
             audioSourceFXs.clip = reloadAudioClip;
             audioSourceFXs.Play();
 
-            Invoke(nameof(Reload), currentWeaponSO.reloadTime);
+            Invoke(nameof(Reload), currentWeaponSO.ReloadTime);
 
         }
 
-        shootTimming += Time.deltaTime;
         if (Input.GetButton("Fire1"))
         {
-            if (shootTimming >= currentWeaponSO.cadency && currentMagazineSize>0)
+            if (shootTimming >= currentWeaponSO.Cadency && currentWeaponSO.BulletsOnMagazineSize > 0)
             {
                 if (useHitScanProjectiles)
                 {
@@ -91,17 +99,39 @@ public class PlayerWeaponController : MonoBehaviour
                 audioSourceFXs.Play();
 
                 shootTimming = 0;
-                currentMagazineSize--;
-                HUDPlayerWeapon.Instance.UpdateMagazineWeapon(currentMagazineSize, currentWeaponSO.magazineSize);
+                currentWeaponSO.BulletsOnMagazineSize--;
+                UpdateWeaponHUDInfo();
             }
           
         }
     }
+
+
+
+    void ChangeWeapon(WeaponSO weapon)
+    {
+        if (currentWeaponModel)
+        {
+            Destroy(currentWeaponModel.gameObject);
+        }
+        WeaponModel weaponModel = Instantiate(weapon.WeaponModel, weaponModelContainer);
+        currentWeaponSO = weapon;
+        currentWeaponModel = weaponModel;
+        canonPos = weaponModel.canonPos;
+        animator.runtimeAnimatorController = currentWeaponSO.AnimatorOverrideController;
+        UpdateWeaponHUDInfo();
+    }
+     
+    void UpdateWeaponHUDInfo()
+    {
+        HUDPlayerWeapon.Instance.UpdateMagazineWeapon(currentWeaponSO.BulletsOnMagazineSize, currentWeaponSO.MaxBulletsOnMagazineSize);
+    }
+
     void Reload()
     {
-        currentMagazineSize = currentWeaponSO.magazineSize;
+        currentWeaponSO.BulletsOnMagazineSize = currentWeaponSO.MaxBulletsOnMagazineSize;
         reloading = false;
-        HUDPlayerWeapon.Instance.UpdateMagazineWeapon(currentMagazineSize, currentWeaponSO.magazineSize);
+        UpdateWeaponHUDInfo();
     }
     void ShootHitScan()
     {

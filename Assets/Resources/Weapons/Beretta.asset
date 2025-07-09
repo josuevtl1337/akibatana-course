@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9eedd1c7cfa8a044896d08db7641f219, type: 3}
-  m_Name: AK74
+  m_Name: Beretta
   m_EditorClassIdentifier: 
   WeaponDescription: 
-  WeaponDamage: 10
-  Cadency: 0.2
-  BulletsOnMagazineSize: 30
-  MaxBulletsOnMagazineSize: 30
-  ReloadTime: 1.5
-  WeaponModel: {fileID: 2812529852942554852, guid: b91dac4135915604594fa0ca9099c9f7,
+  WeaponDamage: 8
+  Cadency: 0.1
+  BulletsOnMagazineSize: 12
+  MaxBulletsOnMagazineSize: 12
+  ReloadTime: 0.5
+  WeaponModel: {fileID: -1395447698827010484, guid: c7eea1c127efef04ebdaec4336b790fc,
     type: 3}
-  AnimatorOverrideController: {fileID: 22100000, guid: fad5126e75d4421419d3e38a35eaa7b5,
+  AnimatorOverrideController: {fileID: 22100000, guid: ede3e3956a0616747b60adfb3128e7c4,
     type: 2}

@@ -5,8 +5,9 @@ public class PlayerHealth : Health
 {
     private PlayerController playerController;
     private PlayerWeaponController playerWeaponController;
-    private void Start()
+    public override void Start()
     {
+        base.Start();
         playerController = GetComponent<PlayerController>();
         playerWeaponController = GetComponent<PlayerWeaponController>();
     }

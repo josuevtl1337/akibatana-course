@@ -10,7 +10,6 @@ public class HUDPlayerWeapon : MonoBehaviour
     void Awake()
     {
         Instance = this;
-        Debug.Log(magazineText);
     }
  
     public void UpdateMagazineWeapon(int currentMagazine, int maxMagazine)

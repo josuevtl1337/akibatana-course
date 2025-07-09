@@ -6,7 +6,8 @@ public class HitScanProjectile : MonoBehaviour
     public float projectileSpeed;
     private Vector3 movePos;
     private float distance;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public ParticleSystem hitParticles;
+
     void Start()
     {
         
@@ -21,6 +22,7 @@ public class HitScanProjectile : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, movePos, projectileSpeed * Time.deltaTime);
         }
         else {
+            Instantiate(hitParticles, transform.position, transform.rotation);
             //Destroy(gameObject);
             gameObject.SetActive(false);
         }
